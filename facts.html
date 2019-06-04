@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Mexico’s Facts/History</title>
+	<link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
+	<script src="./script.js">
+	</script>
+
+
+	<div id="header">My Mexico Report</div>
+	<div id="navbar">
+		<ul>
+			<li id="liItemOne">
+				<p><a href="./index.html"><img src="http://www.pngmart.com/files/3/Welcome-PNG-HD.png" id="img1">Welcome</img></a></p>
+			</li>
+			<li>
+				<p><a href="./attract.html"><img src="https://i.ibb.co/t2SC2wJ/872-8729933-ticket-monster-attractions-circle.png" id="img2">Attractions</img></a></p>
+			</li>
+			<li>
+				<p><a href="./scenes.html"><img src="https://i.ibb.co/sqWHCTW/scenes-icon-png-3.png" id="img3">Scenes</a></p>
+			</li>
+			<li>
+				<p><a href="./moreInfo.html">More Info</a></p>
+			</li>
+      <li>
+        <p><a href="./key.html">Key</a></p>
+      </li>
+		</ul>
+	</div>
+	
+	<div class="setbackgroundimg">
+		<ul id = "indexsetbackground">
+			<li id="item123">
+				Facts
+			</li> <br/> <br/>
+			<li id="sampletxt">
+				<p id="Fancy_Text">Quick Facts: </p><br/><br/>
+				
+				<table style="width:100%">
+				  <tr>
+					<th id="Religion">Religion</th>
+					<th>Government</th> 
+					<th>Area</th>
+					<th>Currency</th>
+					<th>Human Development Index</th>
+					<th>GDP Per Capita</th>
+					<th id="Water">Water(%)</th>
+					<th>Gini Index</th>
+					<th>Average Elevation</th>
+				  </tr>
+				  <tr>
+					<td>83% Catholic</td>
+					<td>Federal Presidential Constitutional Republic</td> 
+					<td>1,972,550 km²</td>
+					<td>Peso(MXN)</td>
+					<td>0.774</td>
+					<td>$20,645</td>
+					<td>2.5%</td>
+					<td>49.8</td>
+					<td>2250 meters(7400 ft.)</td>
+					
+				  </tr>
+				</table>
+				<p id="Alternate_Fancy_Text">Review on the subjects found in the table: </p><hr/><br/>
+				The Human Development Index is rating based on the statistics of any location. <br/>
+				The HDI analyzes data from the education level, the life expectancy, <br/>
+				and the average income per person (PPP/GDP).<br/><br/><hr/><br/>
+				
+				The GDP per Capita statistic refers to the Gross Domestic Output<br/>
+				divided by the population (amount of economic resources divided by <br/>
+				the amount of people).<br/><br/><hr/><br/>
+				
+				The Gini Index measures the average wealth the citizens have, and then <br/>
+				compares them to the amount of people who share the same income rate. For example,<br/>
+				a very steep graphed Gini Index plot would reveal that the majority of the <br/>
+				population is poor, and there are one or two people who are billionaires.<br/><br/><hr/><br/>
+			</li>
+		</ul>
+	</div>
+	<div id="backgroundTest">
+	</div>
+	
+	
+	
+	
+	
+	<style>
+		#test {
+			opacity:0.2;
+		}
+		#item123 {
+			background-image: img;
+			background-size: cover;
+		}
+	</style>
+	
+	<form>
+		<input type="button" value="Go back!" onclick="history.go(-1)">
+	</form>
+  </body>
+  <style>
+	#Fancy_Text {
+		font-family: cursive;
+		position:absolute;
+		top:0px;
+		border-left:2px solid black;
+		border-top:2px solid black;
+		padding:3px;
+		position:relative;
+		left:800px;
+		width:120px;
+
+	}
+	#Fancy_Text:hover,#Alternate_Fancy_Text:hover {
+		background-color:black;
+		color:white;
+		border: 2px solid white;
+		cursor:pointer;
+	}
+	#sampletxt:hover {
+		background-color:black;
+		color:white;
+	}
+	table,th,td {
+		border:20px solid black;
+		padding:2px;
+		text-align:center;
+	}
+	table:hover,th:hover,td:hover {
+		border:20px solid white;
+		border-radius:10px;
+	}
+	table {
+		position:relative;
+		top:-60px;
+	}
+	#setbackgroundimg {
+		border: 2px solid white;
+	}
+	p:hover,table:hover,th:hover,td:hover {
+		cursor:pointer;
+	}
+	p,table,th,td {
+		font-family: Calibri;
+	}
+	
+	
+	
+	td {
+		height:100px;
+	}
+	#sampletxt {
+		background-color:black;
+		color:white;
+		border:5px solid white;
+		padding:5px;
+		height:1000px;
+		text-align:center;
+	}
+	
+	input {
+		position:relative;
+		top:1326px;
+	}
+	
+	#Alternate_Fancy_Text {
+		font-family: cursive;
+		position:absolute;
+		top:0px;
+		border-left:2px solid black;
+		border-top:2px solid black;
+		padding:3px;
+		position:relative;
+		left:675px;
+		width:400px;;
+		
+	}
+	
+	
+	#Religion {
+		background: transparent;
+	}
+	
+	#Religion:hover {
+		background-image: url('https://i.ibb.co/gVMM2QP/ROLLINGYINYANG.gif');
+		background-size:200px, 200px;
+		background-position:center;
+		background-repeat: no-repeat;
+	}
+	
+	#Religion:hover{
+		transform: rotate(360deg);
+	}
+	#Water {
+		background: transparent;
+		background-position: -4000px 0;
+		
+	    transition: background-position 40s ease;
+		overflow: hidden;
+	}
+	#Water:hover {
+		
+		background-position: 200px, 0;
+	}
+	#item123:hover {
+		background-image:url('https://media1.tenor.com/images/b6b6826d2e0ffc3a4959ccc487ea78d5/tenor.gif');
+		background-size:cover;
+		color:white;
+		background-repeat: no-repeat;
+		background-position-y:50%
+	}
+	
+	
+</style>
+
+<style>
+	::selection {
+		background-color:black;
+		color:white;
+	}
+</style>
+</html>

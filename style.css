@@ -1,0 +1,213 @@
+body {
+	font-family: Calibri;
+	font-size: 1em;
+	background-color: #CCCCCC;
+}
+#header {
+	margin-top: 5px;
+	font-size: 3em;
+	color: #42eef4;
+	text-align: center;
+	background-color:#000;
+	border: 2px solid white;
+
+}
+#navbar {
+	margin-top: 10px;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	background-color: #23ddef;
+	text-align: center;
+	transform: perspective(400px);
+	border-left:12px solid black;
+	border-right:12px solid black;
+	background-image: url("https://free.clipartof.com/533-Free-Clipart-Of-A-Mexico-Flag.jpg");
+	background-size: cover;
+	background-position:center;
+	background-zoom:25%;
+}
+
+li {
+	display: inline-block;
+	width: 8em;
+	border: 2px solid black;
+	text-align: center;
+	background-color: white;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding:2px;
+	border-radius:10px;
+}
+li:hover {
+	background-color: gray;
+	border-radius:10px;
+	animation: rotation 2s infinite linear;
+	transform:rotate(360deg);
+    transition-duration:3s;
+}
+a {
+	text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+#MoreInfoLinks, #MIL_1, #MIL_2 {
+	text-align: center;
+	font-size: 100px;
+	font-family: calibri;
+	transform: rotate(0deg);
+	height: 600px;
+	width:800px;
+	position:relative;
+	left:230px;
+	right:700px;
+}
+
+#item123 {
+	background-image: url("http://52.24.98.51/wp-content/uploads/2018/02/mexico-city.jpg");
+	background-size:cover;
+	background-position:center;
+	text-align:center;
+	font-size:200px;
+	font-family:Calibri;
+	color:black;
+	transform:none;
+	box-shadow: inset 0px 0px 277px 3px black;
+	color:black;
+	text-align:center;
+	width:1835px;
+	height:200px;
+	background-position-y:25%;
+	overflow:hidden;
+	padding-bottom:50px;
+}
+
+
+#sampletxt {
+	background-size:cover;
+	background-position:center;
+	text-align:center;
+	font-size:20px;
+	font-family:Calibri;
+	color:black;
+	transform:none;
+	color:black;
+	position:relative;
+	top:0px;
+	width:1800px;
+	height:350px;
+	text-align:left;
+	padding:20px;
+	
+}
+
+.setbackgroundimg {
+	position:absolute;
+	top:350px;
+	left:-22px;
+	display: inline;
+}
+
+input {
+	width:1847px;
+	height:200px;
+	position: relative;
+	bottom:-700px;	
+	text-align:center;
+	left:30px;
+	border-radius:10px;
+	border:2px solid black;
+	font-size:0px;
+	height:20px;
+
+}
+
+input:hover {
+	font-size:25px;
+	height:200px;
+	background-image: url("https://minimalismfilm.com/wp-includes/ms-files.php?file=2015/08/Minimalism-Film-FB.jpg");
+	background-size: tiled;
+	background-position: left;
+	color:white;
+}
+
+#specialgo_back {
+	position:relative;
+	bottom:-800px;
+}
+
+#backgroundTest {
+	z-index: -2;
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-image: url("https://www.gannett-cdn.com/-mm-/b9e5c5c7891056b8e4aad67512619ee83cfb479f/c=0-186-3843-2357/local/-/media/2018/06/15/USATODAY/USATODAY/636646787345137558-GettyImages-908388868.jpg?width=3200&height=1680&fit=crop");
+	width: 1920px;
+	height: 1200px;
+	overflow:hidden;
+	background-size:wallpaper;
+}
+
+#img1 {
+	overflow:hidden;
+	size:cover;
+	width:128px;
+	height:35.5555555556px;
+	size:contain;
+	position:relative;
+	top:0px;
+}
+#liItemOne {
+	z-index:2;
+}
+#img2 {
+	overflow:hidden;
+	size:cover;
+	width:128px;
+	height:92.7219512195px;
+	size:contain;
+	position:relative;
+	top:0px;
+}
+#img3 {
+	overflow:hidden;
+	size:cover;
+	width:128px;
+	height:128px;
+	size:contain;
+	position:relative;
+	top:0px;
+}
+
+
+#specialbutton123 {
+	position:absolute;
+	bottom:-320px;
+	left:37px;
+}
+
+#sampletxt:hover {
+	background-color:black;
+	color:white;
+}
+html, html:hover, p:hover, li:hover, a:hover {
+	cursor: url(http://cur.cursors-4u.net/people/peo-9/peo1019.cur), auto !important;
+}

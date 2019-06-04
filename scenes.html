@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Mexico’s Scenes</title>
+	<link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+
+	</script>
+	<script src="./script.js">
+
+	</script>
+
+	<div id="header">My Mexico Report</div>
+	<div id="navbar">
+		<ul>
+			<li id="liItemOne">
+				<p><a href="./index.html"><img src="http://www.pngmart.com/files/3/Welcome-PNG-HD.png" id="img1">Welcome</img></a></p>
+			</li>
+			<li>
+				<p><a href="./facts.html">Facts/History</a></p>
+			</li>
+			<li>
+				<p><a href="./attract.html"><img src="https://i.ibb.co/t2SC2wJ/872-8729933-ticket-monster-attractions-circle.png" id="img2">Attractions</img></a></p>
+			</li>
+			<li>
+				<p><a href="./moreInfo.html">More Info</a></p>
+			</li>
+      <li>
+        <p><a href="./key.html">Key</a></p>
+      </li>
+		</ul>
+	</div>
+	
+	<div class="setbackgroundimg">
+		<ul id = "indexsetbackground">
+			<li id="item123">
+				Scenes
+			</li> <br/> <br/>
+			<li id="sampletxt">
+        <div id="imageOverlay"></div>
+			</li>
+		</ul>
+	</div>
+	<form>
+		<input type="button" value="Go back!" onclick="history.go(-1)" id="specialbutton123">
+	</form>
+	<style>
+		::selection {
+			background-color:black;
+			color:white;
+		}
+    #imageOverlay {
+      width:1000px;
+      height:750px;
+      background-size:contain;
+      position:relative;
+      background-image:url('https://srv-file2.gofile.io/download/wgz7Pm/FINALRESULT1.png');
+    }
+    #sampletxt {
+      height: 770px;
+      width: 1020px;
+    }
+    #sampletxt {
+      position:relative;
+      left:400px;
+    }
+    form,input {
+      position:relative;
+      bottom:-1035px;
+    }
+	</style>
+  </body>
+
+</html>
